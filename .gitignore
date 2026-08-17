@@ -1,0 +1,32 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE settings
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.bak
+~$*
+
+# SQL Server local database and backup files
+*.mdf
+*.ndf
+*.ldf
+*.trn
+*.bacpac
